@@ -704,6 +704,12 @@ class _FlutterVideoplayerWidgetState extends State<FlutterVideoplayerWidget> {
 
    4. 最后也是很重要的一步是在iOS的example宿主工程的info.plist文件中创建一个key值为io.flutter.embedded_views_preview，值为YES的文件，然后运行可以就可以正常的播放视频了
 
+      以下分别是iOS和Android下的实现效果
+
+   ![](https://raw.githubusercontent.com/yhcflyy/FlutterPlugin/master/android.png)
+
+   ![](https://raw.githubusercontent.com/yhcflyy/FlutterPlugin/master/ios.png)
+
    
 
 #### 参考资源
